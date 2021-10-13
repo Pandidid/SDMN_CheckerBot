@@ -43,21 +43,7 @@ if(!isBanned($userId) && !isMuted($userId)){
 
 Type /cmds to know all my commands!</b>
 
-$messagesec",
-	'parse_mode'=>'html',
-	'reply_to_message_id'=> $message_id,
-    'reply_markup'=>json_encode(['inline_keyboard' => [
-        [
-          ['text' => "💠 Created By 💠", 'url' => "t.me/ninjanaveen"]
-        ],
-        [
-          ['text' => "💎 Source Code 💎", 'url' => "t.me/IndianBotsChat"]
-        ],
-      ], 'resize_keyboard' => true])
-        
-    ]);
-  }
-}
+
 
 //////////////===[CMDS]===//////////////
 
